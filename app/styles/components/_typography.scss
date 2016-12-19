@@ -9,6 +9,7 @@ nav {
   &, a, a:visited, a:hover {
     font-family: 'Gudea-Bold';
     text-transform: uppercase;
+    letter-spacing: 0.1em;
     color: $yellow;
   }
 }
