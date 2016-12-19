@@ -4,3 +4,11 @@
 @include font-face('PTSans-Bold');
 @include font-face('PTSans-Italic');
 @include font-face('PTSans-Regular');
+
+nav {
+  &, a, a:visited, a:hover {
+    font-family: 'Gudea-Bold';
+    text-transform: uppercase;
+    color: $yellow;
+  }
+}

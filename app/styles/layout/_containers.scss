@@ -1,0 +1,12 @@
+.container-fluid {
+  height: 100vh;
+  background: url('#{$image-path}/background.jpg');
+  padding: 0;
+}
+
+nav {
+  background: $charcoal;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+}
