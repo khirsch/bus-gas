@@ -5,7 +5,7 @@
 }
 
 footer {
-  background: $charcoal;
+  background: transparentize($charcoal, 0.2);
   padding: 1em;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ footer {
 }
 
 .navbar {
-  background: $charcoal;
+  background: transparentize($charcoal, 0.2);
   border: 0;
   padding: 0.5em;
   a {
@@ -38,10 +38,10 @@ footer {
     }
   }
   .dropdown-toggle, .dropdown-menu {
-    background: $charcoal !important;
+    background: transparentize($charcoal, 0.2) !important;
     border: 0;
     a:hover {
-      background: $charcoal;
+      background: transparentize($charcoal, 0.2);
     }
   }
   .navbar-toggle {
@@ -52,7 +52,7 @@ footer {
     border-color: transparentize($yellow, 0.5);
   }
   .navbar-toggle:hover {
-    background: $charcoal;
+    background: transparentize($charcoal, 0.2);
   }
   @media only screen and (max-width: 425px) {
     .navbar-right {
