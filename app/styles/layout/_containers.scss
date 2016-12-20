@@ -10,3 +10,12 @@ header, footer {
   display: flex;
   justify-content: center;
 }
+
+.title {
+  height: 70vh;
+  background: url('#{$image-path}/bus_gas.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+}
