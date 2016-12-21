@@ -4,7 +4,7 @@
 }
 
 footer {
-  background: $charcoal;
+  background: $blue;
   padding: 1em;
   display: flex;
   justify-content: center;
@@ -40,12 +40,12 @@ footer {
 }
 
 .navbar {
-  background: $charcoal;
+  background: $blue;
   border: 0;
   padding: 0.5em;
   height: 4.5em;
   a {
-    color: $yellow !important;
+    color: $charcoal !important;
   }
   .navbar-nav {
     display: inline-block;
@@ -56,20 +56,20 @@ footer {
     border: 0;
   }
   .dropdown-menu {
-    background: $charcoal;
+    background: $blue;
     border: 0;
     box-shadow: none;
   }
   .navbar-collapse {
     text-align: center;
     background: transparent;
-    border-color: $yellow;
+    border-color: $charcoal;
     a:hover {
       background: inherit;
     }
     @media only screen and (max-width: 425px) {
       text-align: left;
-      background: $charcoal;
+      background: $blue;
     }
   }
   .navbar-toggle {
