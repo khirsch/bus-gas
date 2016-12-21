@@ -1,3 +1,12 @@
 .navbar-default .navbar-toggle .icon-bar {
     background-color: $yellow;
 }
+
+.nav-icon {
+  position: relative;
+  bottom: 7px;
+  @media only screen and (max-width: 425px) {
+    width: 25px;
+    bottom: 4px;
+  }
+}

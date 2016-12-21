@@ -12,7 +12,7 @@ footer {
 }
 
 .title {
-  height: 91vh;
+  height: 80vh;
   background: url('#{$image-path}/bus_gas.jpg');
   background-position: center;
   background-size: cover;
@@ -24,6 +24,7 @@ footer {
   background: transparentize($charcoal, 0.2);
   border: 0;
   padding: 0.5em;
+  height: 4.5em;
   a {
     color: $yellow !important;
   }
@@ -31,16 +32,23 @@ footer {
     display: inline-block;
     float: none;
   }
+  .dropdown-toggle {
+    background: transparent !important;
+    border: 0;
+  }
+  .dropdown-menu {
+    background: transparentize($charcoal, 0.2);
+    border: 0;
+  }
   .navbar-collapse {
     text-align: center;
+    background: transparent;
+    border-color: $yellow;
+    a:hover {
+      background: inherit;
+    }
     @media only screen and (max-width: 425px) {
       text-align: left;
-    }
-  }
-  .dropdown-toggle, .dropdown-menu {
-    background: transparentize($charcoal, 0.2) !important;
-    border: 0;
-    a:hover {
       background: transparentize($charcoal, 0.2);
     }
   }
@@ -48,11 +56,8 @@ footer {
     border: 0;
     margin-right: 0;
   }
-  .navbar-collapse {
-    border-color: transparentize($yellow, 0.5);
-  }
   .navbar-toggle:hover {
-    background: transparentize($charcoal, 0.2);
+    background: inherit;
   }
   @media only screen and (max-width: 425px) {
     .navbar-right {
