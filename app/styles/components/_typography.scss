@@ -14,3 +14,19 @@ nav {
     color: $yellow;
   }
 }
+
+h4 {
+  font-family: 'Gudea-Bold';
+  text-align: center;
+  color: $white;
+  span {
+    font-family: 'Gudea-Regular';
+    font-size: 16px;
+  }
+}
+
+p {
+  font-family: "PTSans-Regular";
+  color: $white;
+  padding: 1em 5em;
+}
