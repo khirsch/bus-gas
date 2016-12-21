@@ -59,6 +59,7 @@ footer {
   .dropdown-menu {
     background: transparentize($charcoal, 0.2);
     border: 0;
+    box-shadow: none;
   }
   .navbar-collapse {
     text-align: center;
