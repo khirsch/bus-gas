@@ -68,6 +68,3 @@ _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPL
 <p align="center">
   <img src="https://raw.githubusercontent.com/khirsch/bus-gas/master/public/tapes-screenshot.png">
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/khirsch/bus-gas/master/public/video-screenshot.png">
-</p>
