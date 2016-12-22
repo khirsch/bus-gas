@@ -2,6 +2,10 @@
 
 #### By [Katrina Hirsch](https://github.com/khirsch)
 
+## Description
+
+A website designed for the Nebraskan drone band of the same name.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer:
