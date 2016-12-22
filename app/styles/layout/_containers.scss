@@ -96,9 +96,15 @@ footer {
 iframe {
   display: block;
   margin: 0 auto 2em;
+  width: 900px;
+  height: 506px;
+  @media only screen and (max-width: 768px) {
+    width: 600px;
+    height: 338px;
+  }
   @media only screen and (max-width: 425px) {
-    width: 80%;
-    height: auto;
+    width: 300px;
+    height: 169px;
   }
 }
 
