@@ -9,8 +9,11 @@
   padding: 0.5em;
 }
 
-.modal-footer button {
+.modal-footer {
+  button, button:hover, button:focus, button:active {
   border: 0;
-  color: $charcoal;
+  color: $charcoal !important;
+  background-color: $blue !important;
   margin-bottom: 1.5em;
+  }
 }
