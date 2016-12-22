@@ -12,6 +12,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: $charcoal;
+    cursor: pointer;
   }
 }
 
@@ -39,4 +40,9 @@ p {
 footer span {
   color: transparentize($white, 0.5);
   font-family: 'Gudea-Regular';
+}
+
+form {
+  font-family: 'PTSans-Regular';
+  color: $white;
 }

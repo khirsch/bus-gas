@@ -101,3 +101,26 @@ iframe {
     height: auto;
   }
 }
+
+#contactModal {
+  margin-top: 10vh;
+}
+
+.modal-content {
+  background: url('#{$image-path}/background.jpg') !important;
+  .btn {
+    background-color: $blue;
+    width: 5em;
+  }
+  span {
+    color: $white;
+  }
+  .modal-header, .modal-footer {
+    border: 0;
+  }
+  .modal-body {
+    width: 75%;
+    display: block;
+    margin: auto;
+  }
+}
