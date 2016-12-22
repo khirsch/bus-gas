@@ -1,0 +1,9 @@
+.btn, .btn:hover, .btn:active, .btn:visited, .btn:focus {
+  display: block;
+  margin: auto;
+  background-color: $yellow;
+  outline: none !important;
+  border-radius: 20px;
+  width: 10em;
+  padding: 0.5em;
+}
