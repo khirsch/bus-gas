@@ -35,3 +35,8 @@ p {
   font-family: 'PTSans-Bold';
   font-size: 16px;
 }
+
+footer span {
+  color: transparentize($white, 0.5);
+  font-family: 'Gudea-Regular';
+}
