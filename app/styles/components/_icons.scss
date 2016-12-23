@@ -21,11 +21,13 @@
   margin-bottom: 0.5em;
 }
 
-.modal-header img {
+.modal-header {
+  img {
   margin-bottom: 1em;
+  }
 }
 
 .modal-header button {
   position: relative;
-  left: 0.75em;
+  right: 0.5em;
 }
