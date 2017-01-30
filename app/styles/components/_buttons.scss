@@ -7,6 +7,10 @@
   border: 0;
   width: 10em;
   padding: 0.5em;
+  a, a:visited, a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .modal-body {
