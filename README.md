@@ -4,7 +4,7 @@
 
 ## Description
 
-A website designed for the Nebraskan drone band of the same name.
+A website designed for the Oregon/California/Nebraska-based drone band of the same name.
 
 ## Prerequisites
 
