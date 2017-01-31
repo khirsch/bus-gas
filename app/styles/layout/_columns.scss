@@ -4,3 +4,9 @@ p {
     padding: 1em 2em;
   }
 }
+
+.col-xs-7, .col-xs-2, .col-xs-1 {
+  @media only screen and (max-width: 425px) {
+    padding: 0;
+  }
+}

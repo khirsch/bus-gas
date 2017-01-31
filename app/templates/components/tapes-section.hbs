@@ -15,20 +15,20 @@
       <div class="modal-body">
         {{#if shoppingCart.itemsInCart}}
           {{#each shoppingCart.items as |tape|}}
-            <div class="row">
-              <div class="col-sm-1 remove-col">
+            <div class="row cart">
+              <div class="col-xs-1 col-sm-1">
                 <img class="remove" src="/assets/images/minus.png" alt="Remove Item" {{action 'removeQuantity' tape tape.price}}>
               </div>
-              <div class="col-sm-1 quantity">
+              <div class="col-xs-1 col-sm-1">
                 <span>{{tape.quantity}}</span>
               </div>
-              <div class="col-sm-1 add-col">
+              <div class="col-xs-1 col-sm-1">
                 <img class="add" src="/assets/images/plus.png" alt="Add Item" {{action 'addQuantity' tape}}>
               </div>
-              <div class="col-sm-6 item">
+              <div class="col-xs-7 col-sm-7">
                 <span>{{tape.title}}</span>
               </div>
-              <div class="col-sm-2 price">
+              <div class="col-xs-2 col-sm-2">
                 <span>${{tape.price}}.00</span>
               </div>
             </div>
