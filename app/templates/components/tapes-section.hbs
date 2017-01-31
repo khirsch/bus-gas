@@ -1,7 +1,7 @@
 <div class="col-xs-12 col-md-4">
   <img class="album-cover" src={{tape.image}} alt={{tape.title}}>
   <h4>{{tape.title}}<br><span>{{tape.date}}</span></h4>
-  <button class="btn"><a data-toggle="modal" data-target="#cartModal">BUY NOW</a></button>
+  <button class="btn" {{action 'addToCart' tape}}><a data-toggle="modal" data-target="#cartModal">BUY NOW</a></button>
   <p>{{tape.synopsis}}</p>
 </div>
 
@@ -13,7 +13,31 @@
         <img class="section-header" src="/assets/images/checkout.png" alt="Cart">
       </div>
       <div class="modal-body">
-        {{!-- cart contents go here --}}
+        {{#if shoppingCart.itemsInCart}}
+          {{#each shoppingCart.items as |tape|}}
+            <div class="row">
+              <div class="col-sm-1 remove-col">
+                <img class="remove" src="/assets/images/minus.png" alt="Remove Item" {{action 'removeQuantity' tape tape.price}}>
+              </div>
+              <div class="col-sm-1 quantity">
+                <span>{{tape.quantity}}</span>
+              </div>
+              <div class="col-sm-1 add-col">
+                <img class="add" src="/assets/images/plus.png" alt="Add Item" {{action 'addQuantity' tape}}>
+              </div>
+              <div class="col-sm-6 item">
+                <span>{{tape.title}}</span>
+              </div>
+              <div class="col-sm-2 price">
+                <span>${{tape.price}}.00</span>
+              </div>
+            </div>
+          {{/each}}
+        {{else}}
+          <p class="text-center">Uh-oh, your cart is empty!</p>
+        {{/if}}
+        <hr>
+        <h4 id="total">Total: ${{shoppingCart.total}}.00 <button id="checkout" class="btn">Purchase</button></h4>
       </div>
     </div>
   </div>
