@@ -55,6 +55,7 @@ Please send any questions or concerns to katrina.hirsch@gmail.com.
 * Node.js (NPM/Bower)
 * Sketch
 * Flaticon
+* Firebase
 
 ### License
 
