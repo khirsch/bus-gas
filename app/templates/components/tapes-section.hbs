@@ -1,25 +1,8 @@
-<div id="tapes">
-  <img class="section-header" src="/assets/images/tapes.png" alt="Tapes">
-  <div class="row">
-    <div class="col-xs-12 col-md-4">
-      <img class="album-cover" src="/assets/images/six_movements.jpg" alt="Six Movements in Four Hours">
-      <h4>Six Movements in Four Hours<br><span>April 2011</span></h4>
-      <button class="btn"><a data-toggle="modal" data-target="#cartModal">BUY NOW</a></button>
-      <p>"A dark heart beats slowly on the fringes of Nebraska. Ominous vibrations that are not at all unpleasant - affirming the existential anxiety you feel standing dead center in the middle of a frozen cornfield... or laying on the damp concrete floor of an abandoned parking garage. Midwestern vibes for low-lit rooms."<br>— Sweat Lodge Guru</p>
-    </div>
-    <div class="col-xs-12 col-md-4">
-      <img class="album-cover" src="/assets/images/train_out.jpg" alt="Train Out">
-      <h4>Train Out<br><span>October 2012</span></h4>
-      <button class="btn">BUY NOW</button>
-      <p>"Train Out" is a follow up to Bus Gas' 2011 album "Six Movements in Four Hours." This sophomore album retains the gauzy, sleepy warmth of Bus Gas' debut, but places a greater emphasis on composed string sections, rather than wholly improvised music. The crescendos are longer and grander and the textures are richer. These two songs are equally suitable for sensual love making or summoning an evil spirit.</p>
-    </div>
-    <div class="col-xs-12 col-md-4">
-      <img class="album-cover" src="/assets/images/snake_hymns.jpg" alt="Snake Hymns">
-      <h4>Snake Hymns<br><span>October 2014</span></h4>
-      <button class="btn">BUY NOW</button>
-      <p>"Enter Snake Hymns, the latest outing by Bus Gas, the Omaha-based post-rock act whose doomed, dreadful terrain is making more of this empty space in our collective soul than any one else before. But this isn’t an obsessive follower, the sonics here are wholly sincere and genuinely looming, more than a project haunted by forbears." <br>— Decoder</p>
-    </div>
-  </div>
+<div class="col-xs-12 col-md-4">
+  <img class="album-cover" src={{tape.image}} alt={{tape.title}}>
+  <h4>{{tape.title}}<br><span>{{tape.date}}</span></h4>
+  <button class="btn"><a data-toggle="modal" data-target="#cartModal">BUY NOW</a></button>
+  <p>{{tape.synopsis}}</p>
 </div>
 
 <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel">

@@ -1,13 +1,22 @@
 { "tapes": [{
+    "image": "/assets/images/six_movements.jpg",
     "title": "Six Movements in Four Hours",
+    "date": "April 2011",
+    "synopsis": "'A dark heart beats slowly on the fringes of Nebraska. Ominous vibrations that are not at all unpleasant - affirming the existential anxiety you feel standing dead center in the middle of a frozen cornfield... or laying on the damp concrete floor of an abandoned parking garage. Midwestern vibes for low-lit rooms.' — Sweat Lodge Guru",
     "price": 5,
     "quantity": "0"
   }, {
+    "image": "/assets/images/train_out.jpg",
     "title": "Train Out",
+    "date": "October 2012",
+    "synopsis": "'Train Out'  is a follow up to Bus Gas' 2011 album 'Six Movements in Four Hours.' This sophomore album retains the gauzy, sleepy warmth of Bus Gas' debut, but places a greater emphasis on composed string sections, rather than wholly improvised music. The crescendos are longer and grander and the textures are richer. These two songs are equally suitable for sensual love making or summoning an evil spirit.",
     "price": 4,
     "quantity": "0"
   }, {
+    "image": "/assets/images/snake_hymns.jpg",
     "title": "Snake Hymns",
+    "date": "October 2014",
+    "synopsis": "'Enter Snake Hymns, the latest outing by Bus Gas, the Omaha-based post-rock act whose doomed, dreadful terrain is making more of this empty space in our collective soul than any one else before. But this isn’t an obsessive follower, the sonics here are wholly sincere and genuinely looming, more than a project haunted by forbears.' — Decoder",
     "price": 7,
     "quantity": "0"
   }]
