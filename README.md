@@ -4,7 +4,7 @@
 
 ## Description
 
-A website designed for the Oregon/California/Nebraska-based drone band of the same name.
+A website designed for the Oregon/California/Nebraska-based drone band of the same name. View the live version [here](http://bus-gas.herokuapp.com/).
 
 ## Prerequisites
 
