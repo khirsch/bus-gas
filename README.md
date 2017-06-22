@@ -18,7 +18,7 @@ You will need the following things properly installed on your computer:
 
 ## Installation
 
-* `git clone https://github.com/khirsch/bus-gas` this repository
+* `git clone https://github.com/khirsch/bus-gas`
 * `cd bus-gas`
 * `npm install`
 * `bower install`
@@ -26,7 +26,7 @@ You will need the following things properly installed on your computer:
 ## Running / Development
 
 * `ember serve`
-* Visit the app at [http://localhost:4200](http://localhost:4200).
+* Visit the app at [http://localhost:4200](http://localhost:4200)
 
 ### Running Tests
 
